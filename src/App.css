@@ -69,3 +69,9 @@ footer {
   color: white;
   height: 5rem;
 }
+
+.notfound {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
