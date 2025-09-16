@@ -1,0 +1,222 @@
+[
+    {
+      "id_producto": 1,
+      "nombre": "Alma Mora",
+      "bodega": "Finca las moras",
+      "categoria": "Syrah",
+      "precio_unitario": 4500,
+      "cantidad": 2,
+      "descripcion": "Suave y equilibrado, final elegante.",
+      "imagen_url": "\\img\\alma_mora_syrah.webp"
+    },
+    {
+      "id_producto": 2,
+      "nombre": "Don David",
+      "bodega": "El Esteco",
+      "categoria": "Syrah",
+      "precio_unitario": 6500,
+      "cantidad": 5,
+      "descripcion": "Aromas frutales con toques de madera.",
+      "imagen_url": "\\img\\dondavid_syrah.webp"
+    },
+    {
+      "id_producto": 3,
+      "nombre": "Fond de cave",
+      "bodega": "Trapiche",
+      "categoria": "Syrah",
+      "precio_unitario": 7200,
+      "cantidad": 1,
+      "descripcion": "Cuerpo intenso, ideal para carnes rojas.",
+      "imagen_url": "\\img\\fdc_syrah.webp"
+    },
+    {
+      "id_producto": 4,
+      "nombre": "Gran Syrah",
+      "bodega": "Finca las moras",
+      "categoria": "Syrah",
+      "precio_unitario": 17200,
+      "cantidad": 10,
+      "descripcion": "Fresco y ligero, perfecto para verano.",
+      "imagen_url": "\\img\\gran_syrah.webp"
+    },
+    {
+      "id_producto": 5,
+      "nombre": "Paz",
+      "bodega": "Finca las moras",
+      "categoria": "Syrah",
+      "precio_unitario": 10300,
+      "cantidad": 6,
+      "descripcion": "Notas de ciruela y vainilla marcadas.",
+      "imagen_url": "\\img\\paz_syrah.webp"
+    },
+    {
+      "id_producto": 6,
+      "nombre": "Trapiche Reserva",
+      "bodega": "Trapiche",
+      "categoria": "Syrah",
+      "precio_unitario": 8100,
+      "cantidad": 2,
+      "descripcion": "Taninos suaves, muy redondo en boca.",
+      "imagen_url": "\\img\\trapiche_syrah.webp"
+    },
+    {
+      "id_producto": 7,
+      "nombre": "Alma Mora",
+      "bodega": "Finca las moras",
+      "categoria": "Cabernet Suavignon",
+      "precio_unitario": 8100,
+      "cantidad": 12,
+      "descripcion": "Final persistente con recuerdos especiados.",
+      "imagen_url": "\\img\\almamora_cabernet.webp"
+    },
+    {
+      "id_producto": 8,
+      "nombre": "Impuro",
+      "bodega": "Trapiche",
+      "categoria": "Cabernet Suavignon",
+      "precio_unitario": 5100,
+      "cantidad": 18,
+      "descripcion": "Aroma floral, sabor delicado y fresco.",
+      "imagen_url": "\\img\\impuro_cabernet.webp"
+    },
+    {
+      "id_producto": 9,
+      "nombre": "Marantiqua",
+      "bodega": "Trapiche",
+      "categoria": "Cabernet Suavignon",
+      "precio_unitario": 11100,
+      "cantidad": 24,
+      "descripcion": "Excelente relación precio-calidad.",
+      "imagen_url": "\\img\\marantiqua_cabernet.webp"
+    },
+    {
+      "id_producto": 10,
+      "nombre": "Trapiche Reserva",
+      "bodega": "Trapiche",
+      "categoria": "Cabernet Suavignon",
+      "precio_unitario": 8300,
+      "cantidad": 24,
+      "descripcion": "Textura sedosa, muy fácil de beber.",
+      "imagen_url": "\\img\\trapiche_cabernet.webp"
+    },
+    {
+      "id_producto": 11,
+      "nombre": "Coleccion Privada",
+      "bodega": "Navarro Correas",
+      "categoria": "Malbec",
+      "precio_unitario": 6300,
+      "cantidad": 24,
+      "descripcion": "Equilibrio justo entre acidez y dulzor.",
+      "imagen_url": "\\img\\colecc_priv_malbec.webp"
+    },
+    {
+      "id_producto": 12,
+      "nombre": "Don David Reserva",
+      "bodega": "El Esteco",
+      "categoria": "Malbec",
+      "precio_unitario": 8300,
+      "cantidad": 24,
+      "descripcion": "Aromas a frutos rojos maduros.",
+      "imagen_url": "\\img\\don_david_reserva_malbec.webp"
+    },
+    {
+      "id_producto": 13,
+      "nombre": "Elementos",
+      "bodega": "El Esteco",
+      "categoria": "Malbec",
+      "precio_unitario": 4500,
+      "cantidad": 12,
+      "descripcion": "Perfecto para acompañar quesos.",
+      "imagen_url": "\\img\\elementos_malbec.webp"
+    },
+    {
+      "id_producto": 14,
+      "nombre": "Intocables dobleOak",
+      "bodega": "Fin las moras",
+      "categoria": "Malbec",
+      "precio_unitario": 10000,
+      "cantidad": 30,
+      "descripcion": "Entrada fresca, final aterciopelado.",
+      "imagen_url": "\\img\\intocables_malbec.webp"
+    },
+    {
+      "id_producto": 15,
+      "nombre": "Marantiqua",
+      "bodega": "Trapiche",
+      "categoria": "Malbec",
+      "precio_unitario": 17000,
+      "cantidad": 30,
+      "descripcion": "Notas de chocolate y café tostado.",
+      "imagen_url": "\\img\\marantiqua_malbec.webp"
+    },
+    {
+      "id_producto": 16,
+      "nombre": "Navarro Correas",
+      "bodega": "Navarro Correas",
+      "categoria": "Malbec",
+      "precio_unitario": 12000,
+      "cantidad": 36,
+      "descripcion": "Ideal para cenas especiales.",
+      "imagen_url": "\\img\\navarrocorreas_malbec.webp"
+    },
+    {
+      "id_producto": 17,
+      "nombre": "Puro",
+      "bodega": "Trapiche",
+      "categoria": "Malbec",
+      "precio_unitario": 7000,
+      "cantidad": 36,
+      "descripcion": "Frutado con un toque de especias.",
+      "imagen_url": "\\img\\puro_malbec.webp"
+    },
+    {
+      "id_producto": 18,
+      "nombre": "Trapiche Reserva",
+      "bodega": "Trapiche",
+      "categoria": "Malbec",
+      "precio_unitario": 8600,
+      "cantidad": 36,
+      "descripcion": "Elegante, con carácter bien definido.",
+      "imagen_url": "\\img\\trapiche_malbec.webp"
+    },
+    {
+      "id_producto": 19,
+      "nombre": "Coleccion Privada",
+      "bodega": "Navarro Correas",
+      "categoria": "Pinot Noir",
+      "precio_unitario": 8600,
+      "cantidad": 36,
+      "descripcion": "Acidez viva que refresca el paladar.",
+      "imagen_url": "\\img\\coleccion_privada_pinotnoir.webp"
+    },
+    {
+      "id_producto": 20,
+      "nombre": "Costa y Pampa",
+      "bodega": "Trapiche",
+      "categoria": "Pinot Noir",
+      "precio_unitario": 10600,
+      "cantidad": 12,
+      "descripcion": "Elegante, con carácter bien definido.",
+      "imagen_url": "\\img\\costaypampa_pinotnoir.webp"
+    },
+    {
+      "id_producto": 21,
+      "nombre": "Demencial",
+      "bodega": "Navarro Correas",
+      "categoria": "Pinot Noir",
+      "precio_unitario": 4600,
+      "cantidad": 18,
+      "descripcion": "Sorprende con un final largo y armonioso.",
+      "imagen_url": "\\img\\demencial_pinotnoir.webp"
+    },
+    {
+      "id_producto": 22,
+      "nombre": "Expedicion Sur",
+      "bodega": "Fin del mundo",
+      "categoria": "Pinot Noir",
+      "precio_unitario": 26000,
+      "cantidad": 6,
+      "descripcion": "Refrescante, con notas cítricas intensas.",
+      "imagen_url": "\\img\\expedicionsur_pinotnoir.webp"
+    }
+]
