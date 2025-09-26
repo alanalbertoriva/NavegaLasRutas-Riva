@@ -1,4 +1,4 @@
-function ItemDetail({producto}) {
+function ItemDetail({producto, handleClick}) {
   return (
     <div>
       <h2 className="title">Detalle del producto</h2>
@@ -12,6 +12,7 @@ function ItemDetail({producto}) {
             <p><span>Precio:</span> ${producto.precio_unitario}</p>
             <p><span>Cantidad:</span> {producto.cantidad}</p>
             <p><span>Descripción:</span> {producto.descripcion}</p>
+            <button onClick={()=>handleClick(producto)} className="bgSuccess">Agregar al carrito</button>
           </div>
         ) : (
           <p>Cargando...</p>

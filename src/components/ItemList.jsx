@@ -11,7 +11,7 @@ function ItemList({productos}) {
             <p><span>Bodega:</span> {producto.bodega}</p>
             <p><span>Categoría:</span> {producto.categoria}</p>
             <p><span>Precio:</span> ${producto.precio_unitario}</p>
-            <button><Link to={`/detalle/${producto.id_producto}`} state={producto}>Ver detalle</Link></button>
+            <button className="bgSuccess"><Link to={`/detalle/${producto.id_producto}`} state={producto}>Ver detalle</Link></button>
           </div>
         ))}
       </div>

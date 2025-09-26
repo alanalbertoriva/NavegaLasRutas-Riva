@@ -1,33 +1,28 @@
-import {useEffect, useState} from 'react';
+import {useEffect, useState, useContext} from 'react';
 import ItemList from './ItemList';
 import { useParams } from 'react-router-dom';
+import ProductContext from './productContext';
 
 function ItemListContainer() {
   const {idCategoria} = useParams();
-  const [productos, setProductos] = useState([]);
+  const [productosFiltrados, setProductosFiltrados] = useState([]);
+  const {filtrarProductosPorCategoria, productos} = useContext(ProductContext);
 
   useEffect(() => {
-    fetch('/data.json')
-      .then((res) => res.json())
-      .then((data) => {
-        if (idCategoria) {
-          const productosFiltrados = data.filter(
-            (producto) => producto.categoria.toLowerCase().replace(' ', '') === idCategoria.toLowerCase()
-          );
-          setProductos(productosFiltrados);
-        } else {
-          setProductos(data);
-        }
-      })
-      .catch((error) => console.error('Error al cargar los productos:', error));
-  }, [idCategoria]);
+    if (idCategoria) {
+      const productosFiltrados = filtrarProductosPorCategoria(idCategoria);
+      setProductosFiltrados(productosFiltrados);
+    } else {
+        setProductosFiltrados(productos);
+    }
+  }, [idCategoria, productos]);
 
   return (
     <>
-      {productos.length === 0 ? (
+      {productosFiltrados.length === 0 ? (
         <p>Cargando productos...</p>) 
       : (
-        <ItemList productos={productos} />
+        <ItemList productos={productosFiltrados} />
       )}
     </>
   )
